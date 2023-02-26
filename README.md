@@ -1,4 +1,4 @@
-# ws zhaw hslu
+# Workshop ZHAW HSLU
 
 repo for robotics workshop, zhaw and hslu
 
