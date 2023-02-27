@@ -17,8 +17,8 @@ If you are using ``conda`` for the first time, run:
     conda config --add channels conda-forge
     
 Then, to create your compas_rrc environment, run:
-
 ::
+    
     conda create -c conda-forge -n ENVIRONMENT_NAME compas_rrc python=3.8
     conda activate ENVIRONMENT_NAME
 
