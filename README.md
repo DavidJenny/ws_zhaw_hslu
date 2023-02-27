@@ -17,9 +17,10 @@ Repository for the "Robotic Fabrication for Architectural Design" workshop, ZHAW
     
 2. Then, to create your compas_rrc environment, run:
     
-    ``  conda create -c conda-forge -n ENVIRONMENT_NAME compas_rrc python=3.8
-        conda activate ENVIRONMENT_NAME
-        python -m compas_rhino.install -v 7.0``
+    ::
+    conda create -c conda-forge -n ENVIRONMENT_NAME compas_rrc python=3.8
+    conda activate ENVIRONMENT_NAME
+    python -m compas_rhino.install -v 7.0
 
 3. Clone the [ws_zhaw_hslu](https://github.com/DavidJenny/ws_zhaw_hslu) repository to your local drive.
 
