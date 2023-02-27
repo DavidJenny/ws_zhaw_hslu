@@ -24,7 +24,7 @@ Repository for the "Robotic Fabrication for Architectural Design" workshop, ZHAW
     conda activate ENVIRONMENT_NAME
     python -m compas_rhino.install -v 7.0
     ```
-    (Note: If you are using a different version of Rhino please specify)  
+    Note: If you are using a different version of Rhino please specify
 
 3. Clone the [ws_zhaw_hslu](https://github.com/DavidJenny/ws_zhaw_hslu) repository to your local drive.
 
@@ -35,3 +35,9 @@ To verify your setup, start the ``Anaconda Prompt`` as administrator and run the
     >>> import compas
     >>> import compas_fab
     >>> import compas_rrc
+
+
+
+## Credits
+
+This package was created by David Jenny [<jend@zhaw.ch>](jend@zhaw.ch)
