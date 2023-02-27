@@ -32,6 +32,6 @@ Repository for the "Robotic Fabrication for Architectural Design" workshop, ZHAW
 To verify your setup, start the ``Anaconda Prompt`` as administrator and run the following:
 
     python
-    import compas
-    import compas_fab
-    import compas_rrc
+    >>> import compas
+    >>> import compas_fab
+    >>> import compas_rrc
