@@ -40,4 +40,4 @@ To verify your setup, start the ``Anaconda Prompt`` as administrator and run the
 
 ## Credits
 
-This package was created by David Jenny <[jend@zhaw.ch]>(jend@zhaw.ch) @DavidJenny
+This package was created by David Jenny <[jend@zhaw.ch]>(jend@zhaw.ch) [@DavidJenny](https://github.com/DavidJenny)
