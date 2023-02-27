@@ -1,13 +1,19 @@
-============================================================
-# Workshop ZHAW HSLU
-============================================================
+# Robotic Fabrication Workshop ZHAW HSLU
 
 Repository for the "Robotic Fabrication for Architectural Design" workshop, ZHAW at HSLU
+
+## Requirements
+
+
 
 ## Getting started with this project
 
 ### Setup code editor
 
+During the course you can use your preferred Python editor, but to facilitate a smooth implementation, we recommend to use VSCode.
+Follow these steps to setup this editor:
+
+1. Download installer
 1. Open project folder in VS Code
 2. Select python environment for the project
 3. First time using VS Code and on Windows? Make sure select the correct terminal profile: `Ctrl+Shift+P`, `Terminal: Select Default Profile` and select `Command Prompt`.
