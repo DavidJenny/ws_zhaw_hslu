@@ -5,11 +5,11 @@ Repository for the "Robotic Fabrication for Architectural Design" workshop, ZHAW
 ## Requirements
 
 * Windows 10 Pro
+* [Rhino 7 & Grasshopper](https://www.rhino3d.com/download)
 * [Anaconda 3](https://www.anaconda.com/distribution)
 * [Docker Desktop](https://www.docker.com/products/docker-desktop): After installation on Windows, it is required to enable "Virtualization" on the BIOS of the computer.
-* `Rhino 6 & Grasshopper <https://www.rhino3d.com/download>`_
-* `Visual Studio Code <https://code.visualstudio.com/>`_: VS Code + `extensions <https://gramaziokohler.github.io/compas_fab/latest/getting_started.html#working-in-visual-studio-code-1>`_
-* `Intel® RealSense™ SDK 2.0 <https://www.intelrealsense.com/sdk-2/>`_
+
+* [Visual Studio Code](https://code.visualstudio.com/): VS Code + [extensions](https://gramaziokohler.github.io/compas_fab/latest/getting_started.html#working-in-visual-studio-code-1)
 
 
 ## Getting started with this project
