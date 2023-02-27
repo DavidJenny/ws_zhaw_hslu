@@ -29,4 +29,11 @@ Repository for the "Robotic Fabrication for Architectural Design" workshop, ZHAW
 3. Clone the [ws_zhaw_hslu](https://github.com/DavidJenny/ws_zhaw_hslu) repository to your local drive.
 
 
+To verify your setup, start the ``Anaconda Prompt`` as administrator and run the following:
 
+    ```
+    python
+    >>> import compas
+    >>> import compas_fab
+    >>> import compas_rrc
+    ```
