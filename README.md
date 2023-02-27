@@ -13,7 +13,7 @@ Repository for the "Robotic Fabrication for Architectural Design" workshop, ZHAW
 
 1. If you are using ``conda`` for the first time, run:
 
-    conda config --add channels conda-forge
+    ``conda config --add channels conda-forge``
     
 2. Then, to create your compas_rrc environment, run:
     
