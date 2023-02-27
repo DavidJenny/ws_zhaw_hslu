@@ -11,7 +11,7 @@ Repository for the "Robotic Fabrication for Architectural Design" workshop, ZHAW
 
 ## Getting started
 
-1. If you are using ``conda`` for the first time, run:
+1. If you are using `conda` for the first time, run:
 
     ```
     conda config --add channels conda-forge
@@ -32,8 +32,10 @@ Repository for the "Robotic Fabrication for Architectural Design" workshop, ZHAW
 To verify your setup, start the ``Anaconda Prompt`` as administrator and run the following:
 
     ```
+    {
     python
     >>> import compas
     >>> import compas_fab
     >>> import compas_rrc
+    }
     ```
