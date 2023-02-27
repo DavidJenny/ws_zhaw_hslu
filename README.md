@@ -21,3 +21,4 @@ Then, to create your compas_rrc environment, run:
     conda create -c conda-forge -n ENVIRONMENT_NAME compas_rrc python=3.8
     conda activate ENVIRONMENT_NAME
 
+Clone the [ws_zhaw_hslu](https://github.com/gramaziokohler/robotic_plaster_spraying)repository to your local drive
