@@ -1,7 +1,8 @@
+============================================================
 # Workshop ZHAW HSLU
+============================================================
 
-repo for robotics workshop, zhaw and hslu
-
+Repository for the "Robotic Fabrication for Architectural Design" workshop, ZHAW at HSLU
 
 ## Getting started with this project
 
