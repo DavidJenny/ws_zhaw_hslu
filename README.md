@@ -26,8 +26,7 @@ Repository for the "Robotic Fabrication for Architectural Design" workshop, ZHAW
     ```
     Note: If you are using a different version of Rhino please specify
 
-3. Clone the [ws_zhaw_hslu](https://github.com/DavidJenny/ws_zhaw_hslu) repository to your local drive.
-
+3. Clone the [ws_zhaw_hslu](https://github.com/DavidJenny/ws_zhaw_hslu) repository to your local drive. You can do this using git or otherwise [dowload](https://github.com/DavidJenny/ws_zhaw_hslu/archive/refs/heads/master.zip) it here as a .zip folder.
 
 To verify your setup, start the ``Anaconda Prompt`` as administrator and run the following:
 
