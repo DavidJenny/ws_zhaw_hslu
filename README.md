@@ -11,7 +11,7 @@ Repository for the "Robotic Fabrication for Architectural Design" workshop, ZHAW
 
 ## Getting started
 
-1. If you are using `conda` for the first time, run:
+1. If you are using `conda` for the first time, open the `Anaconda Prompt` from Windows start menu and run:
 
     ```
     conda config --add channels conda-forge
