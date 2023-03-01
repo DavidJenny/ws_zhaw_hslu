@@ -1,92 +1,42 @@
-# Workshop ZHAW HSLU
+# Robotic Fabrication Workshop ZHAW HSLU
 
-repo for robotics workshop, zhaw and hslu
+Repository for the "Robotic Fabrication for Architectural Design" workshop, ZHAW at HSLU
 
+## Requirements and Installation
 
-## Getting started with this project
-
-### Setup code editor
-
-1. Open project folder in VS Code
-2. Select python environment for the project
-3. First time using VS Code and on Windows? Make sure select the correct terminal profile: `Ctrl+Shift+P`, `Terminal: Select Default Profile` and select `Command Prompt`.
-
-> All terminal commands in the following sections can be run from the VS Code integrated terminal. 
+* Windows 10 Pro
+* [Rhino 7 & Grasshopper](https://www.rhino3d.com/download)
+* [compas_rrc](https://github.com/compas-rrc/compas_rrc_start#installation): Please follow the installation steps for required software here
 
 
-### First steps with git
+## Getting started
 
-1. Go to the `Source control` tab
-2. Make an initial commit with all newly created files
+1. If you are using `conda` for the first time, open the `Anaconda Prompt` from Windows start menu and run:
 
+    ```
+    conda config --add channels conda-forge
+    ```
+    
+2. Then, to create your compas_rrc environment, run (make sure to change ``ENVIRONMENT_NAME`` to a name of your choice):
 
-### First steps with code
+    ```
+    conda create -c conda-forge -n ENVIRONMENT_NAME compas_rrc python=3.8
+    conda activate ENVIRONMENT_NAME
+    python -m compas_rhino.install -v 7.0
+    ```
+    Note: If you are using a different version of Rhino please specify
 
-1. Install the newly created project 
+3. Clone the [ws_zhaw_hslu](https://github.com/DavidJenny/ws_zhaw_hslu) repository to your local drive. You can do this using git or otherwise [dowload](https://github.com/DavidJenny/ws_zhaw_hslu/archive/refs/heads/master.zip) it here as a .zip folder.
 
-        pip install -e .
+To verify your setup, start the ``Anaconda Prompt`` as administrator and run the following:
 
-2. Install it on Rhino
-
-        python -m compas_rhino.install
-
-
-### Code conventions
-
-Code convention follows [PEP8](https://pep8.org/) style guidelines and line length of 120 characters.
-
-1. Check adherence to style guidelines
-
-        invoke lint
-
-2. Format code automatically
-
-        invoke format
+    python
+    >>> import compas
+    >>> import compas_fab
+    >>> import compas_rrc
 
 
-### Documentation
 
-Documentation is generated automatically out of docstrings and [RST](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) files in this repository
+## Credits
 
-1. Generate the docs
-
-        invoke docs
-
-2. Check links in docs are valid
-
-        invoke linkcheck
-
-3. Open docs in your browser (file explorer -> `dist/docs/index.html`)
-
-
-### Testing
-
-Tests are written using the [pytest](https://docs.pytest.org/) framework
-
-1. Run all tests from terminal
-
-        invoke test
-
-2. Or run them from VS Code from the `Testing` tab
-
-
-### Developing Grasshopper components
-
-We use [Grasshopper Componentizer](https://github.com/compas-dev/compas-actions.ghpython_components) to develop Python components that can be stored and edited on git.
-
-1. Build components
-
-        invoke build-ghuser-components
-
-2. Install components on Rhino
-
-        python -m compas_rhino.install
-
-
-### Publish release
-
-Releases follow the [semver](https://semver.org/spec/v2.0.0.html) versioning convention.
-
-1. Create a new release
-
-        invoke release major
+This package was created by David Jenny <[jend@zhaw.ch](jend@zhaw.ch)> [@DavidJenny](https://github.com/DavidJenny)
