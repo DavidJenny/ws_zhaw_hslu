@@ -11,11 +11,16 @@ if __name__ == '__main__':
     print('Connected.')
 
     # Custom instruction name (RAPID Procedure name)
-    # instruction = 'r_WS_MoveToHome'
-    # instruction = 'r_WS_MoveToZero'
-    # instruction = 'r_WS_GetVacuum'
-    # instruction = 'r_WS_PlaceVacuum'
-    instruction = 'r_WS_PlaceVacuum'
+    # Implemented instructions:
+    # 'r_WS_MoveToHome'
+    # 'r_WS_MoveToZero'
+    # 'r_WS_GetVacuum'
+    # 'r_WS_PlaceVacuum'
+    # 'r_WS_OpenVacuumGripper'
+    # 'r_WS_CloseVacuumGripper'
+
+    instruction = 'r_WS_OpenVacuumGripper'
+
 
     # string vlaue list of 8 strings
     string_values = []
