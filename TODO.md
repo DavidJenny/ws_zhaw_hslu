@@ -12,6 +12,7 @@ Tasks related to new content.
 - [ ] define tool
 - [ ] define wobj
 - [ ] send custom instructions through grasshopper
+- [ ] MoveAbsJ \NoEOffs meaning?
 
 ## DONE
 

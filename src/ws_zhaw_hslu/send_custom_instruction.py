@@ -18,6 +18,7 @@ if __name__ == '__main__':
     # 'r_WS_PlaceVacuum'
     # 'r_WS_OpenVacuumGripper'
     # 'r_WS_CloseVacuumGripper'
+    # 'r_WS_PickShingleVacuum'
 
     instruction = 'r_WS_OpenVacuumGripper'
 
@@ -30,6 +31,8 @@ if __name__ == '__main__':
 
     # Custom instruction
     done = abb.send_and_wait(rrc.CustomInstruction(instruction, string_values, float_values))
+    # Set tool
+    # done = abb.send_and_wait(rrc.SetTool('tVacuumSchmalz'))
 
     # Print feedback
     print('Feedback = ', done)
