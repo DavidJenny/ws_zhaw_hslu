@@ -11,7 +11,6 @@ Tasks related to new content.
 - [ ] placing procedure - input plac pose
 - [ ] define tool
 - [ ] define wobj
-- [ ] send custom instructions through grasshopper
 - [ ] MoveAbsJ \NoEOffs meaning?
 
 ## DONE
@@ -19,3 +18,4 @@ Tasks related to new content.
 - [x] done
 - [x] pick and place vacuum gripper in tool changer
 - [x] turn vacuum gripper on and off
+- [x] send custom instructions through grasshopper

@@ -1,4 +1,7 @@
 import compas_rrc as rrc
+from compas.geometry import Frame
+from compas.geometry import Point
+from compas.geometry import Vector
 
 if __name__ == '__main__':
 
@@ -19,6 +22,7 @@ if __name__ == '__main__':
     # 'r_WS_OpenVacuumGripper'
     # 'r_WS_CloseVacuumGripper'
     # 'r_WS_PickShingleVacuum'
+    # 'r_WS_PlaceShingleVacuum' - doesn't work yet
 
     instruction = 'r_WS_OpenVacuumGripper'
 
@@ -31,8 +35,6 @@ if __name__ == '__main__':
 
     # Custom instruction
     done = abb.send_and_wait(rrc.CustomInstruction(instruction, string_values, float_values))
-    # Set tool
-    # done = abb.send_and_wait(rrc.SetTool('tVacuumSchmalz'))
 
     # Print feedback
     print('Feedback = ', done)
