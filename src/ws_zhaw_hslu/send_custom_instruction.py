@@ -24,7 +24,7 @@ if __name__ == '__main__':
     # 'r_WS_PickShingleVacuum'
     # 'r_WS_PlaceShingleVacuum' - doesn't work yet
 
-    instruction = 'r_WS_OpenVacuumGripper'
+    instruction = 'r_WS_MoveToHome'
 
 
     # string vlaue list of 8 strings
