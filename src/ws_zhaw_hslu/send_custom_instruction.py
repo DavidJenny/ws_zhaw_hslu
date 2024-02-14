@@ -24,7 +24,14 @@ if __name__ == '__main__':
     # 'r_WS_PickShingleVacuum'
     # 'r_WS_PlaceShingleVacuum' - doesn't work yet
 
-    instruction = 'r_WS_MoveToHome'
+    # Custom instructions name ZHAW GoFa (RAPID Procedure name)
+    # Implemented instructions:
+    # 'r_ZHAW_CloseGripper'
+    # 'r_ZHAW_OpenGripper'
+    # 'r_ZHAW_GoToZero'
+    # 'r_ZHAW_GoToHomePoseBMD'
+
+    instruction = 'r_ZHAW_GoToHomePoseBMD'
 
 
     # string vlaue list of 8 strings
